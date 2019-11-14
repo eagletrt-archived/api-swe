@@ -1,0 +1,27 @@
+{
+  "name": "db_api",
+  "version": "1.0.0",
+  "description": "Interfacing with mongoDb",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bson": "^4.0.0",
+    "@types/node": "^12.7.5",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bson": "^4.0.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "mongodb": "^2.2.33",
+    "morgan": "^1.9.1"
+  }
+}
